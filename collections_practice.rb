@@ -12,4 +12,10 @@ def sort_array_char_count(array_of_strings)
   array_of_strings.to_a.sort_by { |x| x.length }
 end
 
-def swap_elements(array, index, destination_index)
+#def swap_elements(array)
+#end
+
+def reverse_array(array_of_integers)
+  array_of_integers.reverse 
+end
+
